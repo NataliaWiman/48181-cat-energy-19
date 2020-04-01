@@ -1,0 +1,40 @@
+.howitworks {
+  background-color: $color-white;
+}
+
+.howitworks__wrapper {
+  padding: 0 20px;
+  margin: 0 auto;
+  margin-bottom: 22px;
+}
+
+.howitworks__title {
+  margin-bottom: 40px;
+}
+
+.howitworks__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.howitworks__item {
+  position: relative;
+  padding-left: 80px;
+  padding-bottom: 30px;
+  font-family: $font-secondary;
+  font-size: $font-size;
+  line-height: $line-height;
+
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 60px;
+    height: 60px;
+    background-color: $color-accent;
+    background-repeat: no-repeat;
+  }
+}

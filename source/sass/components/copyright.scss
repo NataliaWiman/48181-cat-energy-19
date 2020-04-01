@@ -1,0 +1,12 @@
+.copyright {
+  display: flex;
+  justify-content: space-between;
+}
+
+.copyright__link {
+  font-family: $font-secondary;
+  font-size: $font-size-larger;
+  font-weight: $font-weight-regular;
+  line-height: $line-height;
+  color: $color-tundora;
+}

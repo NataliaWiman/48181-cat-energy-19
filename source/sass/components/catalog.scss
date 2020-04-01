@@ -1,0 +1,21 @@
+.catalog {
+  background-color: $color-white;
+}
+
+.catalog__title {
+  margin: 13px 0 30px;
+}
+
+.catalog__wrapper {
+  margin: 0 auto;
+}
+
+.catalog__item {
+  padding: 0 20px 24px;
+  border: 1px solid $color-alto;
+  border-bottom: none;
+
+  &:last-child {
+    border-bottom: 1px solid $color-alto;
+  }
+}

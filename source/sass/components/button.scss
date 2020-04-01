@@ -1,0 +1,21 @@
+.button {
+  display: block;
+  width: 100%;
+  padding: 11px 0 11px;
+  font-family: $font-main;
+  font-size: $font-size-larger;
+  line-height: $line-height-larger;
+  color: $color-white;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: $color-accent;
+  border: 0;
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    background-color: $color-accent-dark;
+    transition: background-color 0.4s ease-in-out;
+  }
+}
