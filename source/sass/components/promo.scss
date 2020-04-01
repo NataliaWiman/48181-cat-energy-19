@@ -1,0 +1,39 @@
+.promo {
+  background-color: $color-accent-dark;
+  background-image: url("../img/index-can-mobile@1x.png"),
+    url("../img/index-background-mobile@1x.jpg"),
+    linear-gradient(to bottom, transparent 305px, $color-white 175px);
+  background-repeat: no-repeat;
+  background-position: center 165px, top center, center;
+}
+
+.promo__wrapper {
+  padding: 25px 20px 22px;
+  margin: 0 auto;
+  width: 320px;
+  font-family: $font-main;
+  color: $color-white;
+  text-align: center;
+}
+
+.promo__header {
+  margin: 0;
+  margin-bottom: 15px;
+  font-size: $font-size-gigantic;
+  font-weight: $font-weight-regular;
+  line-height: $font-size-gigantic;
+  color: $color-white;
+}
+
+.promo__slogan {
+  font-size: $font-size;
+  font-weight: $font-weight-regular;
+  line-height: $font-size;
+  text-transform: uppercase;
+  color: $color-white;
+}
+
+.promo__button {
+  margin: 300px auto 22px;
+  max-width: 280px;
+}

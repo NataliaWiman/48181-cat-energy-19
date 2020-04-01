@@ -1,0 +1,23 @@
+.page-footer {
+  background-color: $color-white;
+}
+
+.page-footer__wrapper {
+  padding: 30px 20px;
+  margin: 0 auto;
+  background-color: $color-concrete;
+}
+
+.page-footer__logo {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.page-footer__social {
+  margin-bottom: 30px;
+  padding: 22px 0;
+  border-top: 1px solid $color-alto;
+  border-bottom: 1px solid $color-alto;
+}
