@@ -47,20 +47,22 @@
     </header>
 
     <main class="page-main">
-      <h1 class="page-title">
-        Подбор программы
-      </h1>
+      <section class="program">
+        <div class="program__wrapper">
+          <div class="program__header">
+            <h1 class="page-title program__title">
+              Подбор программы
+            </h1>
+            <p class="program__lead">
+              Заполните анкету и мы подберем программу питания для вашего кота
+            </p>
+          </div>
 
-      <section class="program-form">
-        <div class="program-form__wrapper">
           <form
-            class="program-form__body"
+            class="program-form"
             action="https://echo.htmlacademy.ru"
             method="POST"
           >
-            <p class="program-form__lead">
-              Заполните анкету и мы подберем программу питания для вашего кота
-            </p>
             <div class="program-form__fieldset-container">
               <fieldset class="program-form__fieldset">
                 <legend class="visually-hidden">
@@ -114,38 +116,44 @@
                 </legend>
                 <div class="program-form__field program-form__field--radio">
                   <input
-                    class="program-form__input-radio"
+                    class="visually-hidden"
                     type="radio"
                     name="program"
                     value="weight-loss"
                     id="weight-loss"
                     checked="checked"
                   />
-                  <label class="program-form__label-radio" for="weight-loss"
+                  <label
+                    class="program-form__label program-form__label--radio"
+                    for="weight-loss"
                     >Похудение</label
                   >
                 </div>
                 <div class="program-form__field program-form__field--radio">
                   <input
-                    class="program-form__input-radio"
+                    class="visually-hidden"
                     type="radio"
                     name="program"
                     value="weight-gain"
                     id="weight-gain"
                   />
-                  <label class="program-form__label-radio" for="weight-gain"
+                  <label
+                    class="program-form__label program-form__label--radio"
+                    for="weight-gain"
                     >Набор массы</label
                   >
                 </div>
                 <div class="program-form__field program-form__field--radio">
                   <input
-                    class="program-form__input-radio"
+                    class="visually-hidden"
                     type="radio"
                     name="program"
                     value="need-advice"
                     id="need-advice"
                   />
-                  <label class="program-form__label-radio" for="need-advice"
+                  <label
+                    class="program-form__label program-form__label--radio"
+                    for="need-advice"
                     >Не знаю (нужен ваш совет)</label
                   >
                 </div>
@@ -206,53 +214,61 @@
               </legend>
               <div class="program-form__field program-form__field--checkbox">
                 <input
-                  class="program-form__input-checkbox"
+                  class="visually-hidden"
                   type="checkbox"
                   name="extra"
                   value="sweetener"
                   id="sweetener"
                   checked="checked"
                 />
-                <label class="program-form__label-checkbox" for="sweetener"
+                <label
+                  class="program-form__label program-form__label--checkbox"
+                  for="sweetener"
                   >Сахарозаменитель</label
                 >
               </div>
 
               <div class="program-form__field program-form__field--checkbox">
                 <input
-                  class="program-form__input-checkbox"
+                  class="visually-hidden"
                   type="checkbox"
                   name="extra"
                   value="water"
                   id="water"
                 />
-                <label class="program-form__label-checkbox" for="sweetener"
+                <label
+                  class="program-form__label program-form__label--checkbox"
+                  for="sweetener"
                   >Питьевая вода</label
                 >
               </div>
 
               <div class="program-form__field program-form__field--checkbox">
                 <input
-                  class="program-form__input-checkbox"
+                  class="visually-hidden"
                   type="checkbox"
                   name="extra"
                   value="milk"
                   id="milk"
                 />
-                <label class="program-form__label-checkbox" for="sweetener"
+                <label
+                  class="program-form__label program-form__label--checkbox"
+                  for="sweetener"
                   >Молоко</label
                 >
               </div>
 
               <div class="program-form__field program-form__field--checkbox">
                 <input
-                  class="program-form__input-checkbox"
+                  class="visually-hidden"
                   type="checkbox"
                   name="extra"
                   value="vitamins"
                   id="vitamins"
                 />
-                <label class="program-form__label-checkbox" for="sweetener"
+                <label
+                  class="program-form__label program-form__label--checkbox"
+                  for="sweetener"
                   >Витамины</label
                 >
               </div>
@@ -262,8 +278,8 @@
               <button class="button program-form__button" type="submit">
                 Отправить заявку
               </button>
-              <small class="program-form__text-required">
-                <sup>*</sup> — Обязательные поля
+              <small class="program-form__footnote">
+                * — Обязательные поля
               </small>
             </div>
           </form>
@@ -274,7 +290,6 @@
     <footer class="page-footer">
       <section class="contacts">
         <div class="contacts__wrapper">
-          <div class="contacts__map"></div>
           <div class="contacts__info">
             <b class="contacts__partnership">
               Приглашаем к сотрудничеству дилеров!
@@ -284,6 +299,7 @@
               <span>Санкт-Петербург</span>
             </p>
           </div>
+          <div class="contacts__map"></div>
         </div>
       </section>
 
