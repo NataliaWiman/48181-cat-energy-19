@@ -1,0 +1,18 @@
+.example {
+  background-color: $color-concrete;
+}
+
+.example__wrapper {
+  padding: 0 20px;
+}
+
+.example__title {
+  margin: 13px 0 30px;
+}
+
+.example__text {
+  font-family: $font-secondary;
+  font-size: $font-size;
+  line-height: $line-height;
+  margin-bottom: 22px;
+}

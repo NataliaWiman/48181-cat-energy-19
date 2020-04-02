@@ -1,0 +1,84 @@
+.program-form {
+  margin-bottom: 30px;
+  background-color: $color-white;
+}
+
+.program-form__fieldset-container {
+  margin-bottom: 22px;
+}
+
+.program-form__fieldset {
+  margin: 0;
+  padding: 0 20px;
+  border: 0;
+
+  &--radio {
+    padding: 22px 20px;
+    border: 1px solid $color-mercury;
+  }
+}
+
+.program-form__field {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 14px;
+
+  &--radio {
+    padding-left: 44px;
+  }
+
+  &--checkbox {
+    padding-left: 44px;
+  }
+}
+
+.program-form__label {
+  display: block;
+  padding: 14px 15px 14px 0;
+  font-family: $font-main;
+  font-size: $font-size-larger;
+  line-height: $line-height;
+  text-transform: uppercase;
+}
+
+.program-form__input {
+  flex-grow: 1;
+  padding: 14px 12px;
+  font-family: $font-main;
+  font-size: $font-size-larger;
+  line-height: $line-height;
+  text-transform: uppercase;
+  border: 1px solid $color-mercury;
+}
+
+.program-form__textarea {
+  width: 100%;
+  padding: 15px;
+  font-family: $font-main;
+  font-size: $font-size-larger;
+  line-height: $line-height;
+  text-transform: uppercase;
+  border: 1px solid $color-mercury;
+}
+
+.program-form__legend {
+  max-width: 200px;
+  margin: 0 0 30px;
+  padding: 0;
+  font-family: $font-main;
+  font-size: $font-size-largest;
+  font-weight: $font-weight-regular;
+  line-height: $font-size-largest;
+}
+
+.program-form__button {
+  margin-bottom: 20px;
+}
+
+.program-form__footnote {
+  display: block;
+  font-family: $font-secondary;
+  font-size: $font-size;
+  line-height: $line-height;
+  text-align: center;
+}
